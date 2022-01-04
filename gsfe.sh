@@ -18,7 +18,7 @@ atomsk ../../CONTCAR -shift above 0.48*BOX z $i*BOX $j*BOX 0.0 -fix z above 0.48
 ln -s ../../INCAR INCAR
 ln -s ../../POTCAR POTCAR
 ln -s ../../KPOINTS KPOINTS
-ln -s ../../run.pbs run.pbs
+#mpirun -np 8 vasp  # change this line based on your vasp executable file 
 cd ..
 done
 cd ..
