@@ -7,8 +7,8 @@ Do following step:
 **make atomsk**  \
 This will generate **atomsk** executable\
 
-**Code gsfe.sh**
-**atomsk ../../CONTCAR -shift above 0.48*BOX z $i*BOX $j*BOX 0.0 -fix z above 0.48*BOX z -cell add 10 H3 vasp**
+**Code gsfe.sh**\
+*atomsk ../../CONTCAR -shift above 0.48*BOX z $i*BOX $j*BOX 0.0 -fix z above 0.48*BOX z -cell add 10 H3 vasp*
 
 Here *atomsk* is taking CONTCAR as input and shifting atoms who is 0.48 times total length of box along z by $i time along x and $j time along y and finally it is adding 10 Anstrom vaccum along Z.
 User can shift based on angstrom value as well 
