@@ -1,11 +1,12 @@
-This is bash script to create input file for 2D-GSFE for vasp. This need atomsk package for super easy acesss
-To install atomsk in your system, 
+This is bash script to create input file for 2D-GSFE for vasp. \
+This need atomsk package for super easy acesss \
+To install atomsk in your system, \
 Do following step: 
 
 **git clone https://github.com/pierrehirel/atomsk/**  \
 **cd atomsk/src**  \
 **make atomsk**  \
-This will generate **atomsk** executable\
+This will generate **atomsk** executable \
 
 **Code gsfe.sh**\
 atomsk ../../CONTCAR -shift above 0.48\*BOX z $i\*BOX $j\*BOX 0.0 -fix z above 0.48*BOX z -cell add 10 H3 vasp
@@ -14,8 +15,8 @@ Here *atomsk* is taking CONTCAR as input and shifting atoms who is 0.48 times to
 User can shift based on angstrom value as well 
 
 
-Code by : PRANAV KUMAR
+Code by : PRANAV KUMAR \
 email: prnvkmr4@gmail.com
 
-*Thanks to Dr. Pierre Hirel*
+*Thanks to Dr. Pierre Hirel*\
 atomsk webpage: https://atomsk.univ-lille.fr/index.php
