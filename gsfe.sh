@@ -1,7 +1,7 @@
 # Bash script created by Pranav Kumar
 # Email : prnvkmr4@gmail.com
 # atomsk package needed to run this script kindly read README.md
-#atomsk web page :https://atomsk.univ-lille.fr/
+# atomsk web page :https://atomsk.univ-lille.fr/
 
 
 module load gcc-9.1.0 # load necessary module to run atomsk
