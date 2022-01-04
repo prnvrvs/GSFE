@@ -6,7 +6,7 @@ Do following step:
 **git clone https://github.com/pierrehirel/atomsk/**  \
 **cd atomsk/src**  \
 **make atomsk**  \
-This will generate **atomsk** executable \
+This will generate **atomsk** executable 
 
 **Code gsfe.sh**\
 atomsk ../../CONTCAR -shift above 0.48\*BOX z $i\*BOX $j\*BOX 0.0 -fix z above 0.48*BOX z -cell add 10 H3 vasp \
