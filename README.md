@@ -10,7 +10,7 @@ This will generate **atomsk** executable
 
 **Code gsfe.sh**\
 box_height=20 #set box height in Z to include vacuum
-atomsk ../../CONTCAR -shift above 0.48\*BOX z $i\*BOX $j\*BOX 0.0 -fix z below 0.48*BOX z -cell set  $box_height H3 vasp \
+atomsk ../../CONTCAR -shift above 0.48\*BOX z $i\*BOX $j\*BOX 0.0 -fix z below 0.48*BOX z cell set  $box_height H3 vasp \
 run using **bash -i gsfe.sh** 
 
 
