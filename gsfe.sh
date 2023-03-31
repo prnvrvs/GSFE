@@ -14,7 +14,7 @@ for i in `seq -w 0.00 0.10 0.50`
 do
 mkdir $i
 cd $i
-atomsk ../../CONTCAR -shift above 0.48*BOX z $i*BOX $j*BOX 0.0 -fix z below 0.48*BOX z -cell set $box_height H3 vasp
+atomsk ../../CONTCAR -shift above 0.48*BOX z $i*BOX $j*BOX 0.0 -fix z below 0.48*BOX z cell set $box_height H3 vasp
 ln -s ../../INCAR INCAR
 ln -s ../../POTCAR POTCAR
 ln -s ../../KPOINTS KPOINTS
